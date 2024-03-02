@@ -1,0 +1,63 @@
+.ContClient{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgba(222, 234, 237, 0.867);
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    margin-top: 30px;
+    width:100%;
+}
+.ClientForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+
+}
+.ClientForm label{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: auto;
+    width:100%;
+
+    font-size: 14px;
+    color: #5c5c5c;
+    margin-bottom: 20px;
+  
+}
+
+.ClientForm input {
+    height: 55px;
+    width:100%;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    border-radius: 100px;
+    color: #5b5858;
+}
+
+.ClientForm label p{
+    margin-left: 17px;
+}
+
+.ClientForm button{
+    height: 55px;
+    width:100%;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color:#1A8AE5;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.ClientForm  button:hover{
+    background-color: #01294a;
+}

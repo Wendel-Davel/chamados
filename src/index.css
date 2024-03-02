@@ -1,0 +1,61 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100vh;
+}
+
+body {
+  font: 14px;
+  font-family: sans-serif;
+
+}
+
+a {
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
+button{
+  cursor: pointer;
+}
+div{
+  width:100%;
+}
+
+.btn-logar{
+  margin-top: 30px;
+  border: none;
+  background-color: #1A8AE5;
+  font-size: 17px;
+  color: #fff;
+  border-radius: 100px;
+  padding: 18px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.btn-logar:hover{
+   background-color:#181C2E;
+}
+.contGlobal{
+  display: flex;
+  width:100%;
+  position: relative;
+  justify-content: center;
+}
+
+.LeftCont{
+  padding: 2rem;
+}
+
+
+input[type=text]:focus {
+  border: 1px solid #1A8AE5;
+}
+input{
+  outline: none;
+}

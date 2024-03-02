@@ -1,0 +1,106 @@
+.container-center{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+.container-center .thumbnail{
+    position: relative;
+    height:100vh;
+    max-width:60%;
+    width:100%;
+    overflow: hidden;
+}
+.container-center .thumbnail .Info {
+    position: absolute;
+    left: 30px;
+    padding: 20px;
+    bottom: 80px;
+}
+.container-center .thumbnail .Info h2{
+    font-size: 45px;
+    color: #fff;
+    font-weight: 500;
+}
+.container-center .thumbnail .foto{
+    width:100%;
+    overflow: hidden;
+    position: relative;
+}
+.container-center .thumbnail .foto img {
+    object-fit: cover;
+    width:100%;
+    height:100vh;
+}
+.container-center .thumbnail .foto::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background:linear-gradient(0deg, rgba(2,0,36,1) 0%, rgba(24,28,46,0) 100%);
+    width:100%;
+    height:100%;
+}
+
+.login{
+    width: 100%;
+    max-width:400px;
+    margin: auto;
+}
+.login .login-area img{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.login form {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+.login form .campo {
+    background: transparent ;
+    border: none;
+    border-bottom: 1.5px solid #E1E3E6;
+    font-size: 16px;
+    padding: 16px 0;
+    color: #1e1e1e;
+    transition: all .3s ease;
+    margin-top: 10px;
+    
+}
+
+.login form .campo:hover{
+    border-bottom: 1.5px solid #1A8AE5;
+    color: #1A8AE5;
+}
+
+.login form .campo::placeholder{
+  color:#AFB0B0;
+  
+}
+
+.login .criar-conta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.login .criar-conta span{
+    color: #AFB0B0;
+    font-size: 13px;
+}
+.login .criar-conta a{
+    color: #181C2E;
+    margin-left: 7px;
+    transition: all .3s ease;
+    font-size: 13px;
+    cursor: pointer;
+}
+.login .criar-conta a:hover{
+    color: #1A8AE5;
+}
+
+

@@ -1,0 +1,15 @@
+.title{
+    width:100%;
+    background-color: #fff;
+    border: 1px solid rgba(222, 234, 237, 0.867);
+    padding: 1.5rem 2rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.title span{
+    font-size: 16px;
+    color: #545454;
+    margin-left: 10px;
+}

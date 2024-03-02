@@ -1,0 +1,59 @@
+.FormAdd{
+    display: flex;
+    flex-direction: column;
+    width:100%;
+}
+.FormAdd select{
+    height: 55px;
+    width:100%;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: #5b5858;
+}
+.FormAdd label {
+    margin-top: 30px;
+    color: #5b5858;
+}
+
+.FormAdd button{
+    height: 55px;
+    width:100%;
+    margin-top: 10px;
+    border-radius: 100px;
+    color: #fff;
+    font-size: 20px;
+    text-align: center;
+    background-color:#1A8AE5;
+    border: none;
+    cursor: pointer;
+    transition: all .3s ease;
+    margin-top: 30px;
+}
+.FormAdd button:hover{
+    background-color: #01294a;
+}
+
+.FormAdd input[type="radio"]:not(:first-child){
+    margin-left: 20px;
+    margin-top: 5px;
+}
+.FormAdd span {
+    color: #5b5858;
+    padding-left: 5px;
+}
+.FormAdd textarea{
+    resize: none;
+    height: 125px;
+    width:100% !important;
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    color: #5b5858;
+    font-family: auto , sans-serif;
+}
